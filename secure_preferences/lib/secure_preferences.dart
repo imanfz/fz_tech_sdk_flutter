@@ -39,23 +39,23 @@ class SecurePreferences {
   /// Method to set String in local storage
   /// [key] -> Key for key-value pair
   /// [val] -> Value for key-value pair
-  Future<void> putString(String key, String val) =>
+  Future<bool> putString(String key, String val) =>
       _sharedPreferences.setString(key, val);
 
   /// Method to set int in local storage
   /// [key] -> Key for key-value pair
   /// [val] -> Value for key-value pair
-  void putInt(String key, int val) => _sharedPreferences.setInt(key, val);
+  Future<bool> putInt(String key, int val) => _sharedPreferences.setInt(key, val);
 
   /// Method to set boolean in local storage
   /// [key] -> Key for key-value pair
   /// [val] -> Value for key-value pair
-  void putBool(String key, bool val) => _sharedPreferences.setBool(key, val);
+  Future<bool> putBool(String key, bool val) => _sharedPreferences.setBool(key, val);
 
   /// Method to set double in local storage
   /// [key] -> Key for key-value pair
   /// [val] -> Value for key-value pair
-  void putDouble(String key, double val) =>
+  Future<bool> putDouble(String key, double val) =>
       _sharedPreferences.setDouble(key, val);
 
   /// Method to set StringList in local storage
@@ -68,6 +68,6 @@ class SecurePreferences {
   Future<bool> remove(String key) => _sharedPreferences.remove(key);
 
   /// Method for deleting all data.
-  Future<void> clearAll() => _sharedPreferences.clear();
+  Future<bool> clearAll() => _sharedPreferences.clear();
 }
 
