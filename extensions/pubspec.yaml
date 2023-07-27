@@ -3,6 +3,7 @@ description: A new Flutter package project.
 version: 0.0.1
 homepage: 'https://github.com/imanfz/fz_tech_sdk_flutter/tree/master/extension'
 repository: 'https://github.com/imanfz/fz_tech_sdk_flutter'
+
 environment:
   sdk: '>=3.0.6 <4.0.0'
   flutter: ">=2.0.0"

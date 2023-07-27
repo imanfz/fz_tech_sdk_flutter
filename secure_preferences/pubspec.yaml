@@ -1,7 +1,8 @@
 name: secure_preferences
 description: A new Flutter package project.
 version: 0.0.1
-homepage: 'https://'
+homepage: 'https://github.com/imanfz/fz_tech_sdk_flutter/tree/master/secure_preferences'
+repository: 'https://github.com/imanfz/fz_tech_sdk_flutter'
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
