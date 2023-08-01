@@ -4,5 +4,5 @@
 
 These are the packages hosted in this repository:
 
-- ### [Secure Preferences](secure-preferences/)
+- ### [Secure Preferences](secure_preferences/)
 - ### [Extensions](extensions/)   
